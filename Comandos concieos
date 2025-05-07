@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Operação Polícia Federal - Comandos Concursos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #002244;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #fff;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    section h2 {
+      color: #002244;
+    }
+    .benefits ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .benefits li {
+      margin-bottom: 10px;
+    }
+    .testimonials {
+      font-style: italic;
+      color: #333;
+    }
+    .cta {
+      background-color: #ffcc00;
+      padding: 20px;
+      text-align: center;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+    .cta h3 {
+      margin-top: 0;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 1rem;
+    }
+    button {
+      background-color: #002244;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #002244;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Operação Polícia Federal</h1>
+    <p>O curso preparatório definitivo da Comandos Concursos</p>
+  </header>  <section class="benefits">
+    <h2>Por que escolher este curso?</h2>
+    <ul>
+      <li>Aulas atualizadas conforme o edital</li>
+      <li>Professores aprovados na PF</li>
+      <li>Material em PDF + videoaulas</li>
+      <li>Simulados inéditos e plano de estudos</li>
+      <li>Suporte com mentores</li>
+    </ul>
+  </section>  <section class="testimonials">
+    <h2>O que dizem nossos alunos:</h2>
+    <p>"Comandos Concursos foi a virada de chave nos meus estudos. A metodologia é diferenciada e focada no que realmente cai." – Ana Carolina, Agente da PF</p>
+  </section>  <section class="cta">
+    <h3>Garanta sua vaga com 50% de desconto!</h3>
+    <p>Preencha abaixo para receber acesso imediato:</p>
+    <form action="https://formspree.io/f/mayvlzjl" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <button type="submit">Quero me inscrever</button>
+    </form>
+  </section>  <footer>
+    <p>Comandos Concursos - suporte@comandosconcursos.com</p>
+  </footer>
+</body>
+</html>
